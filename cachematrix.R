@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
+## makeCacheMatrix comprises set, get, setinv, getinv
 
 library(MASS)
 makeCacheMatrix <- function(x = matrix()) {
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
        getinv = getinv)
 }
 
-## Write a short comment describing this function
+## cacheSolve is used to get the cached data
 
 cacheSolve <- function(x, ...) 
 {
